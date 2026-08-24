@@ -17,4 +17,4 @@ class Motor:
 
     def Speed(self, Rot):
         self.Rot = Rot
-        self.Motor_Esc.value = Rot
+        self.Motor_Esc.value = self.Rot

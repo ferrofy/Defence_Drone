@@ -6,13 +6,13 @@ print("Starting Drone... Gathering And Testing Parts...")
 print("Testing Motors...")
 
 Motor_1 = Motor("1st" , 18)
-Motor_1.Rot(0.05)
+Motor_1.Speed(0.05)
 Motor_2 = Motor("2nd" , 12)
-Motor_2.Rot(0.05)
+Motor_2.Speed(0.05)
 Motor_3 = Motor("3rd" , 13)
-Motor_3.Rot(0.05)
+Motor_3.Speed(0.05)
 Motor_4 = Motor("4th" , 19)
-Motor_4.Rot(0.05)
+Motor_4.Speed(0.05)
 
 print("Testing And Defining Tilt Angle...")
 
